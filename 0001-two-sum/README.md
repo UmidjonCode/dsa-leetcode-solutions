@@ -1,6 +1,6 @@
-## Problem: Two Sum
-## Difficulty: Easy
-## Platform: LeetCode
+#### Problem: Two Sum
+#### Difficulty: Easy
+#### Platform: LeetCode
 
 ## Approaches
 
