@@ -1,0 +1,20 @@
+public class Solution {
+    public int[] TwoSum(int[] nums, int target) {
+        Dictionary<int, int> seenNumbers = new Dictionary<int, int>();
+        for (int i = 0; i < nums.Length; i++)
+        {
+            int complement = target - nums[i];
+            if (seenNumbers.ContainsKey(complement))
+            {
+                return new int[] {seenNumbers[complement], i };
+            }
+            seenNumbers[nums[i]] = i;
+        }
+        return new int[0];
+
+    }
+}
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
