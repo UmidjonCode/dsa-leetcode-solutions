@@ -16,6 +16,6 @@
 - Same as HashMap but cleaner implementation
 
 
-Why I used this approach:
+### Why I used this approach:
 - brute force first step to understand problem
 - hashmap reduces lookup time to O(1)
